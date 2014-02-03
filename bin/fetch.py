@@ -227,7 +227,7 @@ License: GPLv2
             
         try:
             for key, val in data.items():
-                tempfile.write("%s apache[%s,%s] %s\n" % (opts.zabbixsource, opts.host, key, val))
+                tempfile.write("%s apache[%s] %s\n" % (opts.zabbixsource, key, val))
             tempfile.close()
         except "bogus":
             parser.error("Error creating the file to send")

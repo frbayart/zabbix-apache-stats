@@ -14,7 +14,7 @@
 			</groups>
 			<triggers/>
 			<items>
-				<item type="7" key="apache[localhost,BusyWorkers]" value_type="3">
+				<item type="7" key="apache[BusyWorkers]" value_type="3">
 					<description>Apache - Busy Workers</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -47,7 +47,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,BytesPerReq]" value_type="0">
+				<item type="7" key="apache[BytesPerReq]" value_type="0">
 					<description>Apache - Bytes Per Request</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -80,7 +80,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,BytesPerSec]" value_type="0">
+				<item type="7" key="apache[BytesPerSec]" value_type="0">
 					<description>Apache - Bytes Per Second</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -113,7 +113,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Closingconnection]" value_type="3">
+				<item type="7" key="apache[Closingconnection]" value_type="3">
 					<description>Apache Workers - Closing Connection</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -146,7 +146,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,CPULoad]" value_type="0">
+				<item type="7" key="apache[CPULoad]" value_type="0">
 					<description>Apache - CPU Load</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -179,7 +179,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,DNSLookup]" value_type="3">
+				<item type="7" key="apache[DNSLookup]" value_type="3">
 					<description>Apache Workers - DNS Lookup</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -212,7 +212,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Gracefullyfinishing]" value_type="3">
+				<item type="7" key="apache[Gracefullyfinishing]" value_type="3">
 					<description>Apache Workers - Gracefully Finishing</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -245,7 +245,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Idlecleanupofworker]" value_type="3">
+				<item type="7" key="apache[Idlecleanupofworker]" value_type="3">
 					<description>Apache Workers - Idle cleanup of worker</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -278,7 +278,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,IdleWorkers]" value_type="3">
+				<item type="7" key="apache[IdleWorkers]" value_type="3">
 					<description>Apache - Idle Workers</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -311,7 +311,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Keepaliveread]" value_type="3">
+				<item type="7" key="apache[Keepaliveread]" value_type="3">
 					<description>Apache Workers - Keepalive (read)</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -344,7 +344,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Logging]" value_type="3">
+				<item type="7" key="apache[Logging]" value_type="3">
 					<description>Apache Workers - Logging</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -377,7 +377,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Openslotwithnocurrentprocess]" value_type="3">
+				<item type="7" key="apache[Openslotwithnocurrentprocess]" value_type="3">
 					<description>Apache Workers - Open slot with no current process</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -410,7 +410,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,ReadingRequest]" value_type="3">
+				<item type="7" key="apache[ReadingRequest]" value_type="3">
 					<description>Apache Workers - Reading Request</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -443,7 +443,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,ReqPerSec]" value_type="0">
+				<item type="7" key="apache[ReqPerSec]" value_type="0">
 					<description>Apache - Requests Per Second</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -476,7 +476,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,SendingReply]" value_type="3">
+				<item type="7" key="apache[SendingReply]" value_type="3">
 					<description>Apache Workers - Sending Reply</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -509,7 +509,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Startingup]" value_type="3">
+				<item type="7" key="apache[Startingup]" value_type="3">
 					<description>Apache Workers - Starting up</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -542,7 +542,7 @@
 						<application>Apache Worker</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,TotalAccesses]" value_type="3">
+				<item type="7" key="apache[TotalAccesses]" value_type="3">
 					<description>Apache - Total Accesses</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -575,7 +575,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,TotalkBytes]" value_type="3">
+				<item type="7" key="apache[TotalkBytes]" value_type="3">
 					<description>Apache - Total Data Transfer</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -608,7 +608,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,Uptime]" value_type="3">
+				<item type="7" key="apache[Uptime]" value_type="3">
 					<description>Apache - Uptime</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
@@ -641,7 +641,7 @@
 						<application>Apache Stats</application>
 					</applications>
 				</item>
-				<item type="7" key="apache[localhost,WaitingforConnection]" value_type="3">
+				<item type="7" key="apache[WaitingforConnection]" value_type="3">
 					<description>Apache Workers - Waiting for Connection</description>
 					<ipmi_sensor/>
 					<delay>60</delay>
