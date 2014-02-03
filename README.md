@@ -12,6 +12,7 @@ Author(s)
 --------
 * Paulson McIntyre (GpMidi) <paul@gpmidi.net>
 * Zach Bailey <znbailey@gmail.com>
+* some updates: Francois Bayart
 
 Install
 --------
@@ -33,7 +34,7 @@ with the hostname/IP of your Zabbix server.
     </Location>
     ExtendedStatus On # Optional. Must be in global scope and not in a virtual host
     ```
- 1. Restart/reload Apache or use ```kill -USR1 `cat /var/run/httpd.pid ```` for zero downtime
+ 1. Test and Reload Apache2 : apache2ctl configtest && apache2ctl graceful 
  1. Load zabbix_export.xml into Zabbix
  1. Link the Template_App_HTTPd into the hosts in question
 
